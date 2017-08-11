@@ -1,7 +1,12 @@
-console.log('Loaded!');
+//counter code
 
-//change the text main-text div
-var element =document.getElementById('main-text');
+var button= document.getElementById('counter');
+button.oneclick=function (){
+    
+    
+};
+counter=counter+1;
+var span=document.getElementById('count');
+span.innerHTML = counter.toString();
 
-element.InnerHTML='New value';
 
